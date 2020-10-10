@@ -17,6 +17,7 @@ def take_command():
 
 def pdf_combiner(pdf_list):
 	'''Given PDF's files merge them into only one'''
+	
 	pdf_name = str(input('How will your merged PDF will be named?\n') + '.pdf')
 	
 	#Creating a merger object
@@ -24,7 +25,6 @@ def pdf_combiner(pdf_list):
 	print('Appeding your files. Wait...')
 
 	for pdf in pdf_list:
-		
 		
 		merger.append(pdf)
 
