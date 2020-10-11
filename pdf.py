@@ -99,4 +99,4 @@ if __name__ == '__main__':
 
 	else:
 
-		print('If you desire, use -h or --help to see how to use')
+		print('If you desire, use -h or --help to see how to use the program! :)')
